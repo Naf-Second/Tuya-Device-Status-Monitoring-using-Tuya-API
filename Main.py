@@ -30,7 +30,7 @@ def run_code():
         consumption = currentconsumption['value']
 
         # Constructing the absolute path to the CSV file
-        csv_file_path = 'C:/Users/Naf_Second/Downloads/407/monday/cur_power_data.csv'  # Replace with the absolute path
+        csv_file_path = 'C:/Users/cur_power_data.csv'  # Replace with your absolute path
 
         # Checking the current working directory
         print("Current Working Directory:", os.getcwd())
