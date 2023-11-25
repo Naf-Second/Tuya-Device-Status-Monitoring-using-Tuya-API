@@ -30,6 +30,7 @@ def run_code():
         consumption = currentconsumption['value']
 
         # Constructing the absolute path to the CSV file
+        # The csv file will be created automatically
         csv_file_path = 'C:/Users/cur_power_data.csv'  # Replace with your absolute path
 
         # Checking the current working directory
