@@ -17,7 +17,7 @@ openapi.connect()
 def run_code():
     try:
         response = openapi.get('/v1.0/iot-03/devices/status?device_ids=xxx')
-
+        print(response) #printing response to check functionality 
         currentconsumption = response['result'][0]['status'][2]
         currentcurrent = response['result'][0]['status'][3]
         currentpower = response['result'][0]['status'][4]
